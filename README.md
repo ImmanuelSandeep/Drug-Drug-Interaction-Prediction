@@ -4,7 +4,7 @@
 ## Problem Statement
 Due to the small numbers of participants in clinical studies, many DDIs remain undetected. Similarity-based computational methods struggle worth complex interactions. Traditional Graph Neural Networks (GNNs) do not prioritise pharmacologically relevant neighbours. The research gap consists of a lack of frameworks that combine molecular representation learning with graph structural context in a focused manner. Wet-lab DDI detection is time-consuming, costly, and limited in scale. A vast number of possible drug combinations makes exhaustive testing impossible. Use of SMILES-based molecular embeddings + Graph Attention Networks (GAT) enables advanced pattern recognition.
 ## Architecture Diagram
-![Dataset Graph](images/ArchitectureDiagram.png)
+![Dataset Graph](images/dataset.png)
 
 ## DrugBank SMILES Dataset
 
@@ -31,3 +31,8 @@ A heterogeneous, undirected graph is constructed where each node corresponds to 
 | Isolated Loops  | False   | False    | False         |
 | Average Node Degree | 64.087 | 224.38  | 225.53        |
 
+
+## Results
+![AUROC](images/AUROC.png)
+![AUPR](images/AUPR.png)
+![PRAUC](images/PRAUC.png)
